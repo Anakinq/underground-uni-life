@@ -1,0 +1,56 @@
+[
+  {
+    "id": "lagoon-hall",
+    "name": "Lagoon Hall, Block C",
+    "kind": "hostel",
+    "description": "Four bunks, one socket that works, and a window that faces the lagoon if you squint.",
+    "connections": ["buka", "faculty-science", "main-gate"],
+    "travelMinutes": { "buka": 5, "faculty-science": 15, "main-gate": 12 },
+    "hours": null
+  },
+  {
+    "id": "faculty-science",
+    "name": "Faculty of Science",
+    "kind": "academic",
+    "description": "Long corridors, louder generators, and notice boards covered in departmental dues reminders.",
+    "connections": ["lagoon-hall", "lecture-theatre", "main-library"],
+    "travelMinutes": { "lagoon-hall": 15, "lecture-theatre": 4, "main-library": 8 },
+    "hours": { "open": 7, "close": 19 }
+  },
+  {
+    "id": "lecture-theatre",
+    "name": "Lecture Theatre 1",
+    "kind": "academic",
+    "description": "Six hundred seats for nine hundred students. Arrive early or stand by the door.",
+    "connections": ["faculty-science", "main-library"],
+    "travelMinutes": { "faculty-science": 4, "main-library": 6 },
+    "hours": { "open": 7, "close": 20 }
+  },
+  {
+    "id": "main-library",
+    "name": "Main Library",
+    "kind": "academic",
+    "description": "Cold air, quiet reading rooms, and the only reliable light on campus during exams.",
+    "connections": ["faculty-science", "lecture-theatre", "buka"],
+    "travelMinutes": { "faculty-science": 8, "lecture-theatre": 6, "buka": 10 },
+    "hours": { "open": 8, "close": 22 }
+  },
+  {
+    "id": "buka",
+    "name": "Iya Basira's Buka",
+    "kind": "food",
+    "description": "Rice, swallow, and soup that tastes like home. Credit only for regulars.",
+    "connections": ["lagoon-hall", "main-library", "main-gate"],
+    "travelMinutes": { "lagoon-hall": 5, "main-library": 10, "main-gate": 8 },
+    "hours": { "open": 7, "close": 21 }
+  },
+  {
+    "id": "main-gate",
+    "name": "Main Gate",
+    "kind": "transport",
+    "description": "Keke drivers, POS stands, and everyone selling recharge cards at once.",
+    "connections": ["lagoon-hall", "buka"],
+    "travelMinutes": { "lagoon-hall": 12, "buka": 8 },
+    "hours": null
+  }
+]

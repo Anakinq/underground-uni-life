@@ -1,0 +1,99 @@
+{
+  "id": "halcyon",
+  "name": "Halcyon State University",
+  "shortName": "HSU",
+  "city": "Ibadan",
+  "tagline": "Big campus energy, big generator noise, bigger dreams.",
+  "calendar": {
+    "startWeekday": "monday",
+    "startHour": 7,
+    "weeksPerSemester": 15
+  },
+  "culture": {
+    "powerOutageChancePerHour": 0.1,
+    "hostelCurfewHour": 23,
+    "tags": [
+      "public_university",
+      "student_politics",
+      "power_wobbles",
+      "hostel_noise"
+    ]
+  },
+  "reputationGroups": [
+    {
+      "id": "students",
+      "name": "Students",
+      "description": "How your coursemates and hostel mates see you."
+    },
+    {
+      "id": "coursemates",
+      "name": "Coursemates",
+      "description": "Your standing in your department."
+    },
+    {
+      "id": "lecturers",
+      "name": "Lecturers",
+      "description": "Whether staff know you as serious or as a backbencher."
+    },
+    {
+      "id": "administration",
+      "name": "Administration",
+      "description": "How the school office treats you."
+    },
+    {
+      "id": "clubs",
+      "name": "Clubs",
+      "description": "Your social capital on campus."
+    },
+    {
+      "id": "underground",
+      "name": "Underground",
+      "description": "Your network beyond official campus circles."
+    }
+  ],
+  "departments": [
+    "Medicine",
+    "Law",
+    "Engineering",
+    "Mass Communication",
+    "Computer Science",
+    "Accounting"
+  ],
+  "start": {
+    "locationId": "hostel-block-a",
+    "level": 100,
+    "cash": 20000,
+    "bank": 15000,
+    "stats": {
+      "energy": 82,
+      "health": 88,
+      "hunger": 68,
+      "satiety": 68,
+      "stress": 22,
+      "mood": 72,
+      "cgpa": 0,
+      "attendance": 90,
+      "study": 50,
+      "communication": 50,
+      "charisma": 50,
+      "leadership": 40,
+      "hustle": 45,
+      "tech": 45,
+      "creativity": 48,
+      "streetSmarts": 47,
+      "fitness": 52,
+      "money": 0,
+      "dataBalance": 150,
+      "airtime": 500,
+      "students": 0,
+      "coursemates": 0,
+      "lecturers": 0,
+      "administration": 0,
+      "clubs": 0,
+      "underground": 0,
+      "luck": 50,
+      "karma": 50
+    },
+    "enrolledCourseIds": ["csc-101", "ethics-101", "eng-101"]
+  }
+}

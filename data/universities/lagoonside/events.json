@@ -1,0 +1,37 @@
+[
+  {
+    "id": "power-outage-evening",
+    "title": "Light don go",
+    "description": "The fan slows to a stop and the whole block groans at once. Your phone is on 18%.",
+    "tags": ["power", "hostel"],
+    "weight": 3,
+    "once": false,
+    "conditions": [
+      { "type": "location", "locationId": "lagoon-hall" },
+      { "type": "hour", "from": 18, "to": 23 }
+    ],
+    "choices": [
+      {
+        "id": "sleep-early",
+        "label": "Sleep early and hope for the best",
+        "outcome": "You wake up sweaty but rested.",
+        "effects": [
+          { "type": "time", "minutes": 60 },
+          { "type": "stat", "stat": "energy", "delta": 10 }
+        ]
+      },
+      {
+        "id": "library-run",
+        "label": "Head to the library to charge and read",
+        "outcome": "The walk is long, but the AC is worth it.",
+        "conditions": [{ "type": "hour", "from": 18, "to": 21 }],
+        "effects": [
+          { "type": "move", "locationId": "main-library" },
+          { "type": "time", "minutes": 25 },
+          { "type": "stat", "stat": "energy", "delta": -5 },
+          { "type": "stat", "stat": "stress", "delta": -5 }
+        ]
+      }
+    ]
+  }
+]

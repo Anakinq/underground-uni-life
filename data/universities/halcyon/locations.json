@@ -1,0 +1,117 @@
+[
+  {
+    "id": "main-gate",
+    "name": "Main Gate",
+    "kind": "transport",
+    "description": "The noisy front of campus where keke drivers, hawkers, and campus security all talk at the same time.",
+    "connections": ["hostel-block-a", "cafe", "student-union"],
+    "travelMinutes": { "hostel-block-a": 12, "cafe": 9, "student-union": 11 },
+    "hours": null
+  },
+  {
+    "id": "hostel-block-a",
+    "name": "Hostel Block A",
+    "kind": "hostel",
+    "description": "Your room, your chaos, your generator-adjacent survival strategy.",
+    "connections": ["main-gate", "library", "cafe", "lecture-hall"],
+    "travelMinutes": {
+      "main-gate": 12,
+      "library": 8,
+      "cafe": 6,
+      "lecture-hall": 10
+    },
+    "hours": null
+  },
+  {
+    "id": "lecture-hall",
+    "name": "Faculty Lecture Hall",
+    "kind": "academic",
+    "description": "Long benches, bad AC, and a lecturer who is either an angel or a threat depending on the day.",
+    "connections": ["hostel-block-a", "library", "student-union"],
+    "travelMinutes": { "hostel-block-a": 10, "library": 7, "student-union": 9 },
+    "hours": { "open": 7, "close": 18 }
+  },
+  {
+    "id": "library",
+    "name": "Library",
+    "kind": "academic",
+    "description": "Cold air, silent tables, and the only place with decent Wi-Fi when the network is behaving.",
+    "connections": ["hostel-block-a", "lecture-hall", "business-centre"],
+    "travelMinutes": {
+      "hostel-block-a": 8,
+      "lecture-hall": 7,
+      "business-centre": 5
+    },
+    "hours": { "open": 8, "close": 22 }
+  },
+  {
+    "id": "cafe",
+    "name": "Cafeteria",
+    "kind": "food",
+    "description": "A long queue, boiled rice, and the smell of stew that makes everyone forget their stress for 15 minutes.",
+    "connections": ["main-gate", "hostel-block-a", "student-union"],
+    "travelMinutes": {
+      "main-gate": 9,
+      "hostel-block-a": 6,
+      "student-union": 4
+    },
+    "hours": { "open": 7, "close": 21 }
+  },
+  {
+    "id": "mama-put",
+    "name": "Mama Put Food Joint",
+    "kind": "food",
+    "description": "Noisy, cheap, and always full of the kind of stories you wish you hadn't heard.",
+    "connections": ["main-gate", "student-union", "sports-field"],
+    "travelMinutes": { "main-gate": 8, "student-union": 6, "sports-field": 11 },
+    "hours": { "open": 8, "close": 23 }
+  },
+  {
+    "id": "business-centre",
+    "name": "Business Centre",
+    "kind": "service",
+    "description": "Printing, photocopying, POS, and a man who charges extra if you ask for 'urgent' service.",
+    "connections": ["library", "student-union", "main-gate"],
+    "travelMinutes": { "library": 5, "student-union": 7, "main-gate": 10 },
+    "hours": { "open": 8, "close": 20 }
+  },
+  {
+    "id": "sports-field",
+    "name": "Sports Field",
+    "kind": "social",
+    "description": "A patch of grass where football arguments, exercise, and campus gossip all happen at once.",
+    "connections": ["mama-put", "student-union", "lecture-hall"],
+    "travelMinutes": { "mama-put": 11, "student-union": 8, "lecture-hall": 9 },
+    "hours": { "open": 6, "close": 19 }
+  },
+  {
+    "id": "student-union",
+    "name": "Student Union Building",
+    "kind": "social",
+    "description": "Screening room, meeting point, politics hub, and a place where a rumour can become law by 4pm.",
+    "connections": [
+      "main-gate",
+      "cafe",
+      "mama-put",
+      "business-centre",
+      "sports-field"
+    ],
+    "travelMinutes": {
+      "main-gate": 11,
+      "cafe": 4,
+      "mama-put": 6,
+      "business-centre": 7,
+      "sports-field": 8
+    },
+    "hours": { "open": 9, "close": 20 }
+  },
+  {
+    "id": "under-the-tree",
+    "name": "Under-the-Tree Hangout",
+    "kind": "social",
+    "description": "Shaded seating, cheap soft drinks, and a daily audience for the campus drama of the hour.",
+    "connections": ["student-union", "cafe", "library"],
+    "travelMinutes": { "student-union": 6, "cafe": 5, "library": 7 },
+    "hours": { "open": 7, "close": 22 }
+  }
+]

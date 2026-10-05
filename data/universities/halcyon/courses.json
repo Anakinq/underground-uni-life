@@ -1,0 +1,71 @@
+[
+  {
+    "id": "csc-101",
+    "code": "CSC 101",
+    "title": "Introduction to Computing",
+    "units": 3,
+    "level": 100,
+    "semester": 1,
+    "lecturerNpcId": "lecturer-strict",
+    "schedule": [
+      {
+        "weekday": "monday",
+        "startHour": 9,
+        "durationMinutes": 120,
+        "locationId": "lecture-hall"
+      },
+      {
+        "weekday": "wednesday",
+        "startHour": 9,
+        "durationMinutes": 120,
+        "locationId": "lecture-hall"
+      }
+    ]
+  },
+  {
+    "id": "ethics-101",
+    "code": "ETH 101",
+    "title": "Professional Ethics",
+    "units": 2,
+    "level": 100,
+    "semester": 1,
+    "lecturerNpcId": "lecturer-lenient",
+    "schedule": [
+      {
+        "weekday": "tuesday",
+        "startHour": 10,
+        "durationMinutes": 90,
+        "locationId": "lecture-hall"
+      },
+      {
+        "weekday": "thursday",
+        "startHour": 10,
+        "durationMinutes": 90,
+        "locationId": "lecture-hall"
+      }
+    ]
+  },
+  {
+    "id": "eng-101",
+    "code": "ENG 101",
+    "title": "Engineering Mathematics",
+    "units": 4,
+    "level": 100,
+    "semester": 1,
+    "lecturerNpcId": "lecturer-strict",
+    "schedule": [
+      {
+        "weekday": "monday",
+        "startHour": 12,
+        "durationMinutes": 120,
+        "locationId": "lecture-hall"
+      },
+      {
+        "weekday": "friday",
+        "startHour": 9,
+        "durationMinutes": 120,
+        "locationId": "lecture-hall"
+      }
+    ]
+  }
+]

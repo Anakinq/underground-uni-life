@@ -1,0 +1,48 @@
+[
+  {
+    "id": "chidera",
+    "name": "Chidera Okafor",
+    "nickname": "Chi-Boy",
+    "role": "student",
+    "bio": "Your roommate. Knows every shortcut on campus and owes three people money.",
+    "traits": ["sociable", "broke", "loyal"],
+    "homeLocationId": "lagoon-hall",
+    "schedule": [
+      { "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"], "fromHour": 8, "toHour": 14, "locationId": "faculty-science" },
+      { "weekdays": ["saturday", "sunday"], "fromHour": 12, "toHour": 20, "locationId": "main-gate" }
+    ]
+  },
+  {
+    "id": "aisha",
+    "name": "Aisha Bello",
+    "role": "student",
+    "bio": "Course rep. Has the timetable before anyone else and runs the class group chat with an iron fist.",
+    "traits": ["organised", "strict", "helpful"],
+    "homeLocationId": "main-library",
+    "schedule": [
+      { "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"], "fromHour": 8, "toHour": 17, "locationId": "lecture-theatre" }
+    ]
+  },
+  {
+    "id": "iya-basira",
+    "name": "Iya Basira",
+    "role": "vendor",
+    "bio": "Runs the buka near Lagoon Hall. Remembers every face and every unpaid plate.",
+    "traits": ["motherly", "shrewd"],
+    "homeLocationId": "buka",
+    "schedule": [
+      { "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"], "fromHour": 7, "toHour": 21, "locationId": "buka" }
+    ]
+  },
+  {
+    "id": "dr-folarin",
+    "name": "Dr. Adeyemi Folarin",
+    "role": "lecturer",
+    "bio": "Teaches MTH 101. Locks the door at exactly five past the hour.",
+    "traits": ["punctual", "dry_humour", "strict"],
+    "homeLocationId": "faculty-science",
+    "schedule": [
+      { "weekdays": ["monday", "wednesday"], "fromHour": 8, "toHour": 10, "locationId": "lecture-theatre" }
+    ]
+  }
+]

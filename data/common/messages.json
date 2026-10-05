@@ -1,0 +1,28 @@
+{
+  "title": {
+    "gameName": "Underground Uni Life",
+    "subtitle": "Survive the lectures. Survive the hostel. Survive sapa.",
+    "newGame": "New Game",
+    "continue": "Continue",
+    "noSave": "No saved run yet",
+    "overwriteWarning": "Starting a new game will replace your current save.",
+    "saveError": "Your save could not be loaded. Start a new game to continue."
+  },
+  "defaultPlayer": {
+    "name": "Jambite",
+    "department": "Computer Science"
+  },
+  "panels": {
+    "map": { "title": "Campus", "youAreHere": "You are here", "closed": "Closed now" },
+    "phone": { "title": "Phone", "empty": "No messages yet. The class group chat is suspiciously quiet." },
+    "profile": { "title": "Profile" },
+    "menu": {
+      "title": "Menu",
+      "save": "Save game",
+      "saved": "Saved",
+      "theme": "Appearance",
+      "quit": "Save and quit to title",
+      "devTools": "Developer tools"
+    }
+  }
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "id": "class-rep",
+    "name": "Tosin Adebayo",
+    "nickname": "Class Rep",
+    "role": "student",
+    "bio": "A student leader with a WhatsApp broadcast list and a strong opinion on attendance.",
+    "traits": ["ambitious", "disciplined", "charismatic"],
+    "homeLocationId": "student-union",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 7,
+        "toHour": 10,
+        "locationId": "lecture-hall"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 12,
+        "toHour": 14,
+        "locationId": "student-union"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 18,
+        "toHour": 21,
+        "locationId": "student-union"
+      }
+    ]
+  },
+  {
+    "id": "roommate",
+    "name": "Blessing Okafor",
+    "nickname": "Roomie",
+    "role": "student",
+    "bio": "Your roommate: loud, funny, and always out of data at the exact worst time.",
+    "traits": ["generous", "impulsive", "anxious"],
+    "homeLocationId": "hostel-block-a",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 8,
+        "toHour": 11,
+        "locationId": "hostel-block-a"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 12,
+        "toHour": 14,
+        "locationId": "cafe"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 18,
+        "toHour": 21,
+        "locationId": "under-the-tree"
+      }
+    ]
+  },
+  {
+    "id": "plug",
+    "name": "Dare ",
+    "nickname": "Plug",
+    "role": "other",
+    "bio": "The hustler who can find things, people, and sometimes a way out of a problem.",
+    "traits": ["ambitious", "streetSmarts", "charming"],
+    "homeLocationId": "main-gate",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 8,
+        "toHour": 11,
+        "locationId": "main-gate"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 13,
+        "toHour": 17,
+        "locationId": "student-union"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 20,
+        "toHour": 23,
+        "locationId": "mama-put"
+      }
+    ]
+  },
+  {
+    "id": "scholar",
+    "name": "Mariam Yusuf",
+    "nickname": "Scholar",
+    "role": "student",
+    "bio": "Always five minutes early to class and three chapters ahead in reading.",
+    "traits": ["disciplined", "ambitious", "stubborn"],
+    "homeLocationId": "library",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 8,
+        "toHour": 12,
+        "locationId": "library"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 14,
+        "toHour": 17,
+        "locationId": "lecture-hall"
+      }
+    ]
+  },
+  {
+    "id": "lecturer-strict",
+    "name": "Dr. Efe Ibegbulem",
+    "role": "lecturer",
+    "bio": "Strict, abrupt, and very clear that no one is allowed to be late twice and still call it culture.",
+    "traits": ["stubborn", "disciplined"],
+    "homeLocationId": "lecture-hall",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 9,
+        "toHour": 12,
+        "locationId": "lecture-hall"
+      }
+    ]
+  },
+  {
+    "id": "lecturer-lenient",
+    "name": "Mrs. Nneka Duru",
+    "role": "lecturer",
+    "bio": "Kind enough to forgive a late assignment, but not enough to ignore a fake excuse.",
+    "traits": ["generous", "charming", "lenient"],
+    "homeLocationId": "lecture-hall",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 10,
+        "toHour": 13,
+        "locationId": "lecture-hall"
+      }
+    ]
+  },
+  {
+    "id": "mama-put-vendor",
+    "name": "Mama Risi",
+    "role": "vendor",
+    "bio": "The woman behind the stew pot and the best gossip in the school.",
+    "traits": ["generous", "charming"],
+    "homeLocationId": "mama-put",
+    "schedule": [
+      {
+        "weekdays": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+          "saturday",
+          "sunday"
+        ],
+        "fromHour": 8,
+        "toHour": 22,
+        "locationId": "mama-put"
+      }
+    ]
+  },
+  {
+    "id": "security-officer",
+    "name": "Officer Sanni",
+    "role": "staff",
+    "bio": "Security with a radio, a whistle, and a very personal relationship with shoes left outside the gate.",
+    "traits": ["stubborn", "disciplined"],
+    "homeLocationId": "main-gate",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 6,
+        "toHour": 22,
+        "locationId": "main-gate"
+      }
+    ]
+  },
+  {
+    "id": "crush",
+    "name": "Aisha Bello",
+    "nickname": "Crush",
+    "role": "student",
+    "bio": "Sharp, funny, and hard to read when you are trying too hard to impress her.",
+    "traits": ["charming", "ambitious", "disciplined"],
+    "homeLocationId": "under-the-tree",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 9,
+        "toHour": 11,
+        "locationId": "lecture-hall"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 13,
+        "toHour": 16,
+        "locationId": "library"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 18,
+        "toHour": 20,
+        "locationId": "under-the-tree"
+      }
+    ]
+  },
+  {
+    "id": "rival",
+    "name": "Kehinde Bassey",
+    "nickname": "Rival",
+    "role": "student",
+    "bio": "A very polished rival who treats every assignment like a personal campaign.",
+    "traits": ["ambitious", "stubborn", "lazy-genius"],
+    "homeLocationId": "library",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 8,
+        "toHour": 10,
+        "locationId": "library"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 14,
+        "toHour": 18,
+        "locationId": "student-union"
+      }
+    ]
+  },
+  {
+    "id": "gist-girl",
+    "name": "Kemi ",
+    "nickname": "Gist Girl",
+    "role": "student",
+    "bio": "She knows everybody's business before lunch and is never too tired to post a screenshot.",
+    "traits": ["charming", "impulsive", "anxious"],
+    "homeLocationId": "under-the-tree",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 9,
+        "toHour": 11,
+        "locationId": "under-the-tree"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 13,
+        "toHour": 15,
+        "locationId": "student-union"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 17,
+        "toHour": 21,
+        "locationId": "cafe"
+      }
+    ]
+  },
+  {
+    "id": "senior-mentor",
+    "name": "Femi Adekunle",
+    "nickname": "Mentor",
+    "role": "student",
+    "bio": "A final-year student who has survived two strikes and still somehow has the best advice.",
+    "traits": ["generous", "wise", "leadership"],
+    "homeLocationId": "student-union",
+    "schedule": [
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 11,
+        "toHour": 14,
+        "locationId": "student-union"
+      },
+      {
+        "weekdays": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        "fromHour": 16,
+        "toHour": 19,
+        "locationId": "under-the-tree"
+      }
+    ]
+  }
+]

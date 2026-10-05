@@ -1,0 +1,59 @@
+[
+  {
+    "id": "sachet-water",
+    "name": "Pure water",
+    "category": "drink",
+    "description": "A cold sachet of water. Bite the corner, enjoy.",
+    "basePrice": 50,
+    "consumable": true,
+    "useEffects": [{ "type": "stat", "stat": "energy", "delta": 2 }]
+  },
+  {
+    "id": "rice-plate",
+    "name": "Plate of jollof and chicken",
+    "category": "food",
+    "description": "Smoky, spicy, and big enough to share if you are feeling generous.",
+    "basePrice": 1800,
+    "consumable": true,
+    "useEffects": [
+      { "type": "stat", "stat": "satiety", "delta": 45 },
+      { "type": "stat", "stat": "mood", "delta": 8 }
+    ]
+  },
+  {
+    "id": "noodles-pack",
+    "name": "Pack of noodles",
+    "category": "food",
+    "description": "The official meal of exam week. Boil, add pepper, survive.",
+    "basePrice": 350,
+    "consumable": true,
+    "useEffects": [{ "type": "stat", "stat": "satiety", "delta": 25 }]
+  },
+  {
+    "id": "handout",
+    "name": "Lecturer's handout",
+    "category": "academic",
+    "description": "Photocopied notes the lecturer insists are compulsory.",
+    "basePrice": 1500,
+    "consumable": false,
+    "useEffects": []
+  },
+  {
+    "id": "airtime",
+    "name": "Airtime voucher",
+    "category": "misc",
+    "description": "Scratch, load, and finally reply that group chat.",
+    "basePrice": 500,
+    "consumable": true,
+    "useEffects": []
+  },
+  {
+    "id": "keke-ride",
+    "name": "Keke ride",
+    "category": "misc",
+    "description": "One seat in a tricycle that somehow fits five.",
+    "basePrice": 300,
+    "consumable": true,
+    "useEffects": []
+  }
+]

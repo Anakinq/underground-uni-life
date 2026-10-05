@@ -1,0 +1,31 @@
+{
+  "id": "lagoonside",
+  "name": "Lagoonside Federal University",
+  "shortName": "LFU",
+  "city": "Lagos",
+  "tagline": "Where the lagoon breeze meets the 7am lecture.",
+  "calendar": {
+    "startWeekday": "monday",
+    "startHour": 7,
+    "weeksPerSemester": 15
+  },
+  "culture": {
+    "powerOutageChancePerHour": 0.08,
+    "hostelCurfewHour": 23,
+    "tags": ["city_campus", "traffic_heavy", "hostel_scarcity"]
+  },
+  "reputationGroups": [
+    { "id": "students", "name": "Students", "description": "How your coursemates and hostel mates see you." },
+    { "id": "lecturers", "name": "Lecturers", "description": "Whether staff know you as serious or as a backbencher." },
+    { "id": "hostel", "name": "Hostel", "description": "Your standing with the porters and hall executives." }
+  ],
+  "departments": ["Computer Science", "Mass Communication", "Mechanical Engineering", "Economics", "Pharmacy"],
+  "start": {
+    "locationId": "lagoon-hall",
+    "level": 100,
+    "cash": 15000,
+    "bank": 35000,
+    "stats": { "energy": 85, "health": 90, "satiety": 60, "stress": 25, "mood": 70 },
+    "enrolledCourseIds": ["gst-101", "mth-101", "phy-101", "csc-101"]
+  }
+}

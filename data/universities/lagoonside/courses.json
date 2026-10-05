@@ -1,0 +1,49 @@
+[
+  {
+    "id": "gst-101",
+    "code": "GST 101",
+    "title": "Use of English I",
+    "units": 2,
+    "level": 100,
+    "semester": 1,
+    "schedule": [
+      { "weekday": "tuesday", "startHour": 10, "durationMinutes": 120, "locationId": "lecture-theatre" }
+    ]
+  },
+  {
+    "id": "mth-101",
+    "code": "MTH 101",
+    "title": "Elementary Mathematics I",
+    "units": 3,
+    "level": 100,
+    "semester": 1,
+    "lecturerNpcId": "dr-folarin",
+    "schedule": [
+      { "weekday": "monday", "startHour": 8, "durationMinutes": 120, "locationId": "lecture-theatre" },
+      { "weekday": "wednesday", "startHour": 8, "durationMinutes": 60, "locationId": "lecture-theatre" }
+    ]
+  },
+  {
+    "id": "phy-101",
+    "code": "PHY 101",
+    "title": "General Physics I",
+    "units": 3,
+    "level": 100,
+    "semester": 1,
+    "schedule": [
+      { "weekday": "tuesday", "startHour": 14, "durationMinutes": 120, "locationId": "faculty-science" },
+      { "weekday": "thursday", "startHour": 9, "durationMinutes": 60, "locationId": "faculty-science" }
+    ]
+  },
+  {
+    "id": "csc-101",
+    "code": "CSC 101",
+    "title": "Introduction to Computing",
+    "units": 2,
+    "level": 100,
+    "semester": 1,
+    "schedule": [
+      { "weekday": "friday", "startHour": 11, "durationMinutes": 120, "locationId": "faculty-science" }
+    ]
+  }
+]
